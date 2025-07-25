@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/expenses")
-@CrossOrigin(origins = "*") // Allow frontend access (important for web apps)
+@CrossOrigin(origins = "https://expense-tracker-frontend.vercel.app")
 public class expenseController {
 
     @Autowired
