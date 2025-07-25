@@ -1,7 +1,7 @@
 const form = document.getElementById('expenseForm');
 const list = document.getElementById('expenseList');
 
-const api = 'http://localhost:8080/api/expenses';
+const api = 'https://expense-tracker-backend-sq55.onrender.com/api/expenses';
 
 function fetchExpenses() {
   fetch(api)
